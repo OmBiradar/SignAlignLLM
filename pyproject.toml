@@ -5,3 +5,9 @@ description = "Integrating Multimodal Sign Language Processing into Large Langua
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "black>=26.3.1",
+    "pre-commit>=4.5.1",
+]
