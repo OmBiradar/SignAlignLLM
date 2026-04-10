@@ -14,4 +14,10 @@ Download and install `uv` for project setup and dependency management. Then run
 uv sync
 ```
 
-to setup virtual python environment.
+to setup virtual python environment. Then run
+
+```bash
+pre-commit install
+```
+
+to activate the git pre-commit hooks (formats Python files with `black` on every commit).
